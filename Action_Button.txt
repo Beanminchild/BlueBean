@@ -1,0 +1,11 @@
+https://www.icloud.com/shortcuts/d389f71d4ab8431b952a3241c095b6cb
+
+Above is an icloud link to the shortcut i use to interface with this program to unlock my laptop...
+This is able to unlock the laptop  in less than a second  after activating the "Spectre Unlock" step in most cases.
+The other steps are not needed just left over from other functionality that i also tie to my action button all you need 
+is the logic under "Spectre Unlock"
+
+Theres multiple ways to handle the shortcut but the way i have it seems to be the fastest and 
+most reliable based on my many many hours of experimentation with this project.
+
+If you find a better way to do it please let me know!

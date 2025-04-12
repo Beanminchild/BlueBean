@@ -1,0 +1,16 @@
+[Unit]
+Description=Bluetooth Unlock Service
+After=network.target
+
+[Service]
+User=user
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/user/.Xauthority"
+ExecStart=/usr/bin/python3 /usr/local/bin/Blue_Bean.py
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=Blue_Bean
+
+[Install]
+WantedBy=multi-user.target
